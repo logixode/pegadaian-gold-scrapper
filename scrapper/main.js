@@ -60,7 +60,6 @@ const runProgram = async () => {
 };
 
 let checkRefresh = () => {
-  let refresh = false;
   db.ref("refresh")
     .on("child_changed", data => {
       // console.log(data.val());
@@ -76,6 +75,6 @@ let checkRefresh = () => {
 console.log(
   "===========================\nProgram berhasil dijalankan\n==========================="
 );
-runProgram();
 
+runProgram();
 checkRefresh();
