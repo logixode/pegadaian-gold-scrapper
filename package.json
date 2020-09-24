@@ -10,7 +10,6 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "firebase": "^7.21.0",
-    "puppeteer": "^5.3.0",
     "vue": "^2.6.11",
     "vuetify": "^2.2.11"
   },
